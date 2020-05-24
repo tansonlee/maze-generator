@@ -9,7 +9,7 @@ let stack = [];
 let listVisited = [];
 
 function setup() {
-	createCanvas(801, 601);
+	createCanvas(800, 600);
 	rows = floor(height / w);
 	cols = floor(width / w);
 	maxVisited = rows * cols;
@@ -21,6 +21,7 @@ function setup() {
 	stack.push(current);
 	current.visited = true;
 	listVisited.push(current);
+	frameRate(10);
 }
 
 function draw() {
@@ -54,6 +55,7 @@ function draw() {
 		grid.show();
 		if (current == grid.getCell(0, 0)) {
 			noLoop();
+			console.log("FINSHED!!");
 		}
 	}
 }
