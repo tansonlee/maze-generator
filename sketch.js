@@ -56,6 +56,13 @@ function draw() {
 		if (current == grid.getCell(0, 0)) {
 			noLoop();
 			console.log("FINSHED!!");
+			fill(255, 0, 0);
+			noStroke();
+			textSize(12);
+			textStyle(BOLD);
+			textAlign(CENTER, CENTER);
+			text("START", w / 2, w / 2);
+			text("FINISH", width - w / 2, height - w / 2);
 		}
 	}
 }
