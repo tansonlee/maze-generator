@@ -21,7 +21,7 @@ function setup() {
 	stack.push(current);
 	current.visited = true;
 	listVisited.push(current);
-	frameRate(10);
+	frameRate(60);
 }
 
 function draw() {
