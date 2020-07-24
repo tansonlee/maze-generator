@@ -1,3 +1,3 @@
 # maze-generator
 
-uses a generating algorithm with a stack.
+Generates a maze using a recursive back tracking algorithm.
