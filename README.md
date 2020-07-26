@@ -2,4 +2,7 @@
 
 Generates a maze using a recursive back tracking algorithm.
 
-![](gif/maze-generator.gif)
+<br>
+
+<img src="gif/maze-generator.gif" width="400px">
+
