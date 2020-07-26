@@ -1,6 +1,6 @@
 # maze-generator
 
-Generates a maze using a recursive back tracking algorithm.
+### Generates a maze using a recursive back tracking algorithm.
 
 Made with JavaScript and visualized with the p5.js library.
 
